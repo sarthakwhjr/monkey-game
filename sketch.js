@@ -96,6 +96,7 @@ function spawnobstacles() {
       obstacles.addImage(obstacleImage); 
      obstacles.scale=.1
      obstacles.velocityX=-4
+       obstacles.lifetime = 300;
       obstaclesGroup.add(obstacles);
    }
   
@@ -111,7 +112,7 @@ function spawnfood()
       bananas.addImage(bananaImage); 
      bananas.scale=.1
      bananas.velocityX=-4
-     
+      bananas.lifetime = 300 ;
      FoodGroup.add(bananas)
    }
   
